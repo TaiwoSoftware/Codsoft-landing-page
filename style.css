@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.beforeHeader {
+  background-image: url("images/realtor-3.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(1.5rem);
+  box-shadow: none;
+  position: relative;
+  margin: 0;
+  background-size: cover;
+  padding: 12rem;
+}
+
+header {
+  transform: translateY(-24rem);
+  height: 2rem;
+}
+
+.headerContent {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header button {
+  background: #46271a;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 2rem;
+  box-shadow: 3px 3px 3px black, inset 3px 3px 1px #211008;
+}
+
+li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header button {
+  padding: 0.3rem 2rem;
+}
+
+marquee {
+  background: gray;
+  padding: 0.5rem;
+}
+
+marquee p {
+  color: #fff;
+}
+
+.button {
+  margin-top: 2rem;
+}
+
+.button input {
+  background: transparent;
+  border: 1.5px solid #000;
+  color: #fff;
+  text-align: center;
+  outline: none;
+  padding: 0.8rem 6rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.button input::placeholder {
+  color: rgb(148, 148, 148);
+}
+
+.button button {
+  border: none;
+  box-sizing: border-box;
+  color: #fff;
+  transform: translateX(-0.3rem);
+  background: #46271a;
+  padding: 0.9rem;
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.firstDetail {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2rem;
+  margin-top: 5rem;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.firstDetail img {
+  padding: 2rem;
+  width: 100%;
+  border-radius: 3rem;
+}
+
+.innerDetail h3 {
+  text-align: center;
+}
+
+.innerDetail p {
+  color: rgb(162, 162, 162);
+  margin-top: 2rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+.firstMainHeader {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+hr {
+    margin-top: 5rem;
+}
+
+.firstMaineaderDetails {
+  margin-top: 4rem;
+}
+
+.firstMaineaderDetails h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.firstMainHeaderImages img {
+  border-radius: 2rem;
+}
+
+.mvp {
+    padding: 3rem;
+}
+
+.mvpier {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 5rem;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+.mvpDetails {
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+.mvpDetails h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.mvp p {
+    text-align: justify;
+    margin-top:2rem ;
+}
+
+
+.mvpImage img {
+    width: 100%;
+}
+footer {
+    padding: 2rem;
+    background-color: rgb(32, 32, 32);
+}
+
+footer p {
+    text-align: center;
+    color: gray;
+}
+
+footer a {
+    text-align: center;
+    color: purple;
+}
+
